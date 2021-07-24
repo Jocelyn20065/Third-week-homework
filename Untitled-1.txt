@@ -1,0 +1,75 @@
+未完成部分- location:
+html's css
+
+/* locations css */
+
+.locations-main h2{
+	text-align: left;
+	padding-left: 16px;
+	border-left: 8px solid #9F1213;
+	
+}
+.locations-main h3{
+	font-size: 24px;
+	line-height: 36px;
+}
+.locations-main .selection{
+	font-size: 18px;
+	line-height: 1.5;
+	padding-top: 8px;
+	padding-bottom: 11px;
+	padding-left: 20px;
+	padding-right: 30px;
+	margin-left: 22px;
+	margin-bottom: 37px;
+	color: #495057;
+}
+.flex-area{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap:wrap;
+}
+.locations-info{
+	width: 40%;
+}
+
+.location-pic{
+	background: url("https://github.com/hexschool/webLayoutTraining1st/blob/master/week3/locate2.jpg?raw=true");
+	background-size: cover;
+	width: auto;
+	height: 224px;
+}
+.locations-info h3{
+	padding: 12px 24px;
+	border: 1px solid #00000020;
+}
+.locations-info-detailed li{
+	font-size: 20px;
+	line-height:1.5;
+	color: #212529;
+	padding-top:9px;
+	padding-left: 32px;
+}
+
+.locations-info-detailed {
+	padding-bottom: 16px;
+	padding-left: 27px;
+	border: 1px solid #00000020;
+	margin-bottom: 160px;
+}
+.locations-info-detailed li:nth-child(1){ 
+	background-image: url("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/week3/icon-phone-black.svg");
+	background-repeat: no-repeat;
+	background-position: bottom 5px left;
+}
+.locations-info-detailed li:nth-child(2){ 
+	background-image: url("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/week3/icon-clock-black.svg");
+	background-repeat: no-repeat;
+	background-position: bottom 5px left;
+}
+.locations-info-detailed li:nth-child(3){ 
+	background-image: url("https://upload.cc/i1/2021/07/20/rnjofX.png");
+	background-repeat: no-repeat;
+	background-position: bottom 5px left;
+}
+
